@@ -1,0 +1,29 @@
+{
+  "properties": {
+    "links": {
+      "type": "array",
+      "title": "Links",
+      "items": {
+        "type": "object",
+        "title": "Link",
+        "description": "A link to a website",
+        "required": [
+          "name",
+          "url"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Name",
+            "description": "Name of the website you're linking to"
+          },
+          "url": {
+            "type": "string",
+            "title": "URL",
+            "description": "Link starting with 'https://' to the website"
+          }
+        }
+      }
+    }
+  }
+}

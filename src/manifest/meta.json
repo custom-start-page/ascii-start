@@ -1,0 +1,11 @@
+{
+    "version": "1.0.0",
+    "name": "Ascii Start",
+    "author": {
+        "name": "Harvzor",
+        "link": "https://github.com/custom-start-page/ascii-start"
+    },
+    "features": [
+        "links"
+    ]
+}

@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16px;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+pre {
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    outline: none;
+}
+
+block::before {
+    content: '█';
+}
+
+space::before {
+    content: ' ';
+}
