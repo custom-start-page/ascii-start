@@ -1,0 +1,23 @@
+{
+  "name": "ascii-start",
+  "version": "1.0.0",
+  "description": "https://github.com/custom-start-page/ascii-start",
+  "dependencies": {
+    "custom-start-page-tool": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "cd src && node ../node_modules/custom-start-page-tool/ server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/custom-start-page/ascii-start.git"
+  },
+  "author": "@harvzor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/custom-start-page/ascii-start/issues"
+  },
+  "homepage": "https://github.com/custom-start-page/ascii-start#readme"
+}
