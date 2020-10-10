@@ -8,11 +8,11 @@ https://github.com/custom-start-page/ascii-start
 
 ### Getting started
 
-1. Download a ZIP of this repository and use that as the base template for your startpage
-2. Run NPM install
-3. Open a terminal in the `./src` directory
-4. Run `node ../node_modules/custom-start-page-tool/dist/index.js server` to start the server
-5. Navigate to the URL which your terminal prints out to view your startpage
+1. Clone this repository (or download a zip)
+1. Open the local folder to this repo in a terminal
+1. Run `npm install`
+1. Run `npm start` to locally host the website
+1. Navigate to the URL which your terminal prints out to view your startpage
 
 ## Hosting
 
@@ -20,9 +20,10 @@ This startpage needs to be hosted by a web server in order to work.
 
 It's already hosted at https://ascii-start.customstart.page for your convenience.
 
+
 ### Self host
 
-If you want to self host, just run a web server pointed at the directory of `/src` and everything should work.
+If you want to self host, you can use https://github.com/custom-start-page/custom-start-page-tool/ to run the server.
 
 ## Packaging
 

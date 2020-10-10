@@ -1,26 +1,42 @@
 {
   "properties": {
-    "links": {
+    "linkGroups": {
       "type": "array",
-      "title": "Links",
+      "title": "Links Groups",
+      "description": "You can create groups of links",
       "items": {
         "type": "object",
-        "title": "Link",
-        "description": "A link to a website",
-        "required": [
-          "name",
-          "url"
-        ],
+        "title": "Link Group",
         "properties": {
-          "name": {
+          "groupName": {
             "type": "string",
-            "title": "Name",
-            "description": "Name of the website you're linking to"
+            "title": "Group Name",
+            "description": "Name of this group"
           },
-          "url": {
-            "type": "string",
-            "title": "URL",
-            "description": "Link starting with 'https://' to the website"
+          "links": {
+            "type": "array",
+            "title": "Links",
+            "items": {
+              "type": "object",
+              "title": "Link",
+              "description": "A link to a website",
+              "required": [
+                "name",
+                "url"
+              ],
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "title": "Name",
+                  "description": "Name of the website you're linking to"
+                },
+                "url": {
+                  "type": "string",
+                  "title": "URL",
+                  "description": "Link starting with 'https://' to the website"
+                }
+              }
+            }
           }
         }
       }

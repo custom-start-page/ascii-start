@@ -1,7 +1,7 @@
 {
     "linkGroups": [
         {
-            "name": "Fun",
+            "groupName": "Fun",
             "links": [
                 {
                     "name": "Youtube",
@@ -22,7 +22,7 @@
             ]
         },
         {
-            "name": "Productivity",
+            "groupName": "Productivity",
             "links": [
                 {
                     "name": "Feedly",
