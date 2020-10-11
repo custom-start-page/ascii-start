@@ -1,4 +1,6 @@
 {
+    "backgroundColor": "white",
+    "textColor": "black",
     "linkGroups": [
         {
             "groupName": "Fun",
@@ -22,19 +24,19 @@
             ]
         },
         {
-            "groupName": "Productivity",
+            "groupName": "Text only",
             "links": [
                 {
-                    "name": "Feedly",
-                    "url": "https://feedly.com/i/latest"
+                    "name": "Wttr",
+                    "url": "https://wttr.in"
                 },
                 {
-                    "name": "Toggl",
-                    "url": "https://www.toggl.com/app/timer"
+                    "name": "Crypto",
+                    "url": "http://rate.sx"
                 },
                 {
-                    "name": "Trello",
-                    "url": "https://trello.com/"
+                    "name": "More text websites :)",
+                    "url": "https://sjmulder.nl/en/textonly.html"
                 }
             ]
         }

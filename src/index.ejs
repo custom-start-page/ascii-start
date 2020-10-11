@@ -19,7 +19,7 @@
         let outputText = '';
 
         for (let line of text.split('\n')) {
-            outputText += '█ ' + centerText(line, 2) + ' █\n';
+            outputText += '██ ' + centerText(line, 3) + ' ██\n';
         }
 
         return outputText;
@@ -32,10 +32,10 @@
     <title>Ascii</title>
     <link rel="stylesheet" type="text/css" href="/styles.css">
 </head>
-<body>
+<body style="background-color: <%= data.backgroundColor %>; color: <%= data.textColor %>;">
 <pre>
 ████████████████████████████████████████████████████████████████████████████████
-█                                                                              █
+██                                                                            ██
 <%= centerMultilineText(`
  █████╗ ██████╗ █████╗██╗██╗   ██████╗████████╗ █████╗ ██████╗ ████████╗
 ██╔══██╗██╔═══╝██╔═══╝██║██║   ██╔═══╝╚══██╔══╝██╔══██╗██╔══██╗╚══██╔══╝
@@ -44,15 +44,15 @@
 ██║  ██║██████║╚█████╗██║██║   ██████║   ██║   ██║  ██║██║  ██║   ██║   
 ╚═╝  ╚═╝╚═════╝ ╚════╝╚═╝╚═╝   ╚═════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   
 `) _%>
-█                                                                              █
+██                                                                            ██
 <%_ data.linkGroups.forEach(linkGroup = (linkGroup) => { _%>
-█   .----------------------------------------------------------------------.   █
-█   | <%= centerText(linkGroup.groupName, 6) %> |   █
-█   '----------------------------------------------------------------------'   █
-█                                                                              █
-<% linkGroup.links.forEach(link = (link) => { %>█    > <a href="<%= link.url %>"><%= link.name %></a><% for (let i = 0; i < 80 - 8 - link.name.length; i++) { %> <% } %>█
-<% }) %>█                                                                              █
-<% }) %>█                                                                              █
+██  .----------------------------------------------------------------------.  ██
+██  | <%= centerText(linkGroup.groupName, 6) %> |  ██
+██  '----------------------------------------------------------------------'  ██
+██                                                                            ██
+<% linkGroup.links.forEach(link = (link) => { %>██   > <a href="<%= link.url %>"><%= link.name %></a><% for (let i = 0; i < 80 - 9 - link.name.length; i++) { %> <% } %>██
+<% }) %>██                                                                            ██
+<% }) %>██                                                                            ██
 ████████████████████████████████████████████████████████████████████████████████
 </pre></body>
 </html>

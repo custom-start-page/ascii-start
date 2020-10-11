@@ -1,5 +1,15 @@
 {
   "properties": {
+    "backgroundColor": {
+      "type": "string",
+      "title": "Background Color",
+      "description": "Set the color of the background of the page, could be an RGB, hex code or HTML color"
+    },
+    "textColor": {
+      "type": "string",
+      "title": "Text Color",
+      "description": "Set the color of the text on the page, could be an RGB, hex code or HTML color"
+    },
     "linkGroups": {
       "type": "array",
       "title": "Links Groups",
