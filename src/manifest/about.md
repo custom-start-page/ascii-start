@@ -2,7 +2,7 @@
 
 Styled after [.nfo](https://en.wikipedia.org/wiki/.nfo) file
 
-![preview image](preview.png)
+![preview image](../manifest/preview.png)
 
 ## Features
 
