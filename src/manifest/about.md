@@ -1,15 +1,9 @@
-# Template
+# Ascii Start
 
-*a brief introduction to this startpage*
-
-This is a bare bones example of a website which integrates with Custom Start Page.
-
-It allows you to personalise certain content on the page, such as links that are displayed.
+Styled after [.nfo](https://en.wikipedia.org/wiki/.nfo) files which often contain elaborate ASCII art, this start page primarily uses text for the UI.
 
 ## Features
 
-### Links
+### Link Groups
 
-You can define your own links!
-
-That's about it though.
+Define your own groups of custom links, each with their own title.
