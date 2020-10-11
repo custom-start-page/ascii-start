@@ -2,6 +2,8 @@ https://github.com/custom-start-page/ascii-start
 
 # Ascii (St)art
 
+Styled after [.nfo](https://en.wikipedia.org/wiki/.nfo) files which often contain elaborate ASCII art, this start page primarily uses text for the UI.
+
 ![preview image](/src/manifest/preview.png)
 
 ## Developing
@@ -19,7 +21,6 @@ https://github.com/custom-start-page/ascii-start
 This startpage needs to be hosted by a web server in order to work.
 
 It's already hosted at https://ascii-start.customstart.page for your convenience.
-
 
 ### Self host
 
