@@ -2,10 +2,10 @@
   "name": "ascii-start",
   "version": "1.0.0",
   "description": "https://github.com/custom-start-page/ascii-start",
-  "dependencies": {
-    "custom-start-page-tool": "0.0.1"
+  "dependencies": {},
+  "devDependencies": {
+    "custom-start-page-tool": "0.0.2"
   },
-  "devDependencies": {},
   "scripts": {
     "start": "cd src && node ../node_modules/custom-start-page-tool/ server",
     "test": "echo \"Error: no test specified\" && exit 1"

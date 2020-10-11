@@ -4,7 +4,7 @@ https://github.com/custom-start-page/ascii-start
 
 ![preview image](/src/manifest/preview.png)
 
-## How to create a startpage that integrates with Custom Start Page
+## Developing
 
 ### Getting started
 
