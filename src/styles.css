@@ -12,6 +12,7 @@ body {
     justify-content: center;
     flex-direction: column;
     color: black;
+    letter-spacing: -1px;
 }
 
 pre {
