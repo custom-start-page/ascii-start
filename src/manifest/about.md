@@ -1,6 +1,8 @@
 # Ascii Start
 
-Styled after [.nfo](https://en.wikipedia.org/wiki/.nfo) files which often contain elaborate ASCII art, this start page primarily uses text for the UI.
+Styled after [.nfo](https://en.wikipedia.org/wiki/.nfo) file
+
+![preview image](preview.png)
 
 ## Features
 
