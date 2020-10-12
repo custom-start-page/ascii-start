@@ -17,6 +17,9 @@
       "items": {
         "type": "object",
         "title": "Link Group",
+        "required": [
+          "groupName"
+        ],
         "properties": {
           "groupName": {
             "type": "string",

@@ -34,6 +34,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body style="background-color: <%= data.backgroundColor %>; color: <%= data.textColor %>;">
+    <div class="pre-container">
 <pre>
 ████████████████████████████████████████████████████████████████████████████████
 ██                                                                            ██
@@ -46,14 +47,16 @@
 ╚═╝  ╚═╝╚═════╝ ╚════╝╚═╝╚═╝   ╚═════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝   
 `) _%>
 ██                                                                            ██
-<%_ data.linkGroups.forEach(linkGroup = (linkGroup) => { _%>
+<%_ data.linkGroups && data.linkGroups.forEach(linkGroup = (linkGroup) => { _%>
 ██  .----------------------------------------------------------------------.  ██
 ██  | <%= centerText(linkGroup.groupName, 6) %> |  ██
 ██  '----------------------------------------------------------------------'  ██
 ██                                                                            ██
-<% linkGroup.links.forEach(link = (link) => { %>██   > <a href="<%= link.url %>"><%= link.name %></a><% for (let i = 0; i < 80 - 9 - link.name.length; i++) { %> <% } %>██
+<% linkGroup.links && linkGroup.links.forEach(link = (link) => { %>██   > <a href="<%= link.url %>"><%= link.name %></a><% for (let i = 0; i < 80 - 9 - link.name.length; i++) { %> <% } %>██
 <% }) %>██                                                                            ██
 <% }) %>██                                                                            ██
 ████████████████████████████████████████████████████████████████████████████████
-</pre></body>
+</pre>
+    </div>
+</body>
 </html>
